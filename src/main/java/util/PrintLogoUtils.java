@@ -1,6 +1,16 @@
 package util;
 
+/**
+ * It is util-class to print some fancy logo.
+ *
+ * @author Evgenii Mukhamadiarov
+ * @since 07/21/2020
+ */
 public class PrintLogoUtils {
+
+    /**
+     * <code>printGracefulFinalisationLogo</code> prints the majestic dog
+     */
     public static void printGracefulFinalisationLogo() {
         System.out.println("Graceful finalisation :"
                 + "                                                  -/-         `.                                    \n"

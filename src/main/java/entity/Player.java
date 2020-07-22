@@ -13,8 +13,8 @@ import service.MessageService;
  */
 public class Player implements MessageService {
     public final static int COUNTER_LIMIT = 10;
-    private int messageSentCounter = 0;
-    private int messageReceivedCounter = 0;
+    private int messageSentCounter;
+    private int messageReceivedCounter;
 
     /**
      * Sends message to <code>recipient</code> and replies
